@@ -1,3 +1,41 @@
+This project explores global COVID-19 data using SQL to identify trends in cases, deaths, and vaccinations. The datasets include CovidDeaths and CovidVaccinations tables, containing information such as cases, deaths, population, and vaccination progress across countries and continents.
+
+The primary goal was to analyze key metrics (infection rates, death percentages, vaccination rollouts) and create reusable queries, views, and insights for further visualization in BI tools like Tableau or Power BI.
+
+Skills & SQL Concepts Applied
+
+Data Cleaning & Filtering → Handling missing continent values
+
+Aggregations → Identifying highest infection & death counts
+
+Window Functions → Tracking rolling vaccination counts
+
+CTEs & Temp Tables → Breaking down complex calculations
+
+Views → Creating reusable datasets for visualization
+
+Data Type Conversion → Ensuring numerical calculations are accurate
+
+Key Insights
+
+Death Likelihood: Calculated the probability of dying after contracting COVID-19 in specific countries.
+
+Infection Rates: Determined the highest infection percentages relative to population.
+
+Global Death Counts: Aggregated cases and deaths at a global scale for trend analysis.
+
+Vaccination Progress: Analyzed percentage of population vaccinated using rolling sums and partitions.
+
+Continental Analysis: Compared total deaths across continents to identify worst-hit regions.
+
+Example Results
+
+Countries like the United States and India showed some of the highest case numbers.
+
+Infection percentages revealed smaller nations with relatively higher exposure rates.
+
+Vaccination analysis highlighted disparities between continents in rollout efficiency.
+
 /* 
 COVID-19 Data Exploration Project
 Skills Demonstrated:
